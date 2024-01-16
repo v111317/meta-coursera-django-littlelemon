@@ -22,8 +22,8 @@ check settings.py
 **Are the menu and table booking APIs implemented?**
 
 In the browser or insomnia, try accessing
-http://127.0.0.1:8000/restaurant/menu/
-http://127.0.0.1:8000/restaurant/menu/1
+http://127.0.0.1:8000/restaurant/menu/<br/>
+http://127.0.0.1:8000/restaurant/menu/1<br/>
 http://127.0.0.1:8000/restaurant/booking/tables/
 <br/><br/>
 
@@ -35,13 +35,13 @@ Try accessing http://127.0.0.1:8000/restaurant/menu/ with and without token
 **Does the application contain unit tests?**
 
 Run the tests in the command line as:
-python manage.py test littlelemon.tests.test-models.MenuTest.test_get_item
+python manage.py test littlelemon.tests.test-models.MenuTest.test_get_item<br/>
 python manage.py test littlelemon.tests.test-views.MenuViewTest.test_getall
 <br/><br/>
 
 **Can the API be tested with the Insomnia REST client?**
 
 Try accessing
-http://127.0.0.1:8000/restaurant/menu/
+http://127.0.0.1:8000/restaurant/menu/<br/>
 http://127.0.0.1:8000/restaurant/menu/1
 <br/><br/>
