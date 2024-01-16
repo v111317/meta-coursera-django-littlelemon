@@ -14,4 +14,7 @@ class Menu(models.Model):
     inventory = models.IntegerField() #max_digits=5
 
     def __str__(self):
-        return self.title
+        return f'{self.title} : {str(self.price)}'
+    
+    def get_item(self):
+        return f'{self.title} : {str(self.price)}'
