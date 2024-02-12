@@ -1,4 +1,4 @@
-# meta-coursera-django-littlelemon
+# Meta Course Back-End Developer Capstone 
 
 **Does the web application use Django to serve static HTML content?**
 
